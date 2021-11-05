@@ -1,0 +1,58 @@
+/*index.wxss**/
+#background{
+    width: 100%;
+    height: 1800rpx;
+    display: block;
+  }
+  #now{
+    font-size: 100rpx;
+    margin-top: 20rpx;
+  }
+  #container{
+    color:		#77e022e3;
+    position: absolute;
+    top: 80rpx;
+    text-align: center;/*居中*/
+    width: 100%;
+  }
+  #container image{
+    width: 200rpx;
+    height:200rpx;
+  }
+  #air,#weather{
+    margin: 20rpx;
+  }
+  #temp,#hum,#city{
+    font-size: 70rpx;
+    margin-top: 20rpx;
+    text-align: center;
+  }
+  #city image{
+    width: 35rpx;
+    height: 35rpx;
+  }
+  #form{
+    color:#d8e1e2;
+    width: 100%;
+    height:600rpx;
+    text-align: center;
+    margin-top:350rpx;
+    margin-left:10rpx;
+  }
+  #form image{
+    width: 120rpx;
+    height: 120rpx;
+    margin-top:10rpx;
+  }
+  .list{
+    width: 80%;
+    height: 220rpx;
+    margin-left:10%;
+  }
+  .td{
+    display: block;
+    width:33%;
+    height:160rpx;
+    float: left;
+    line-height: 160rpx;
+  }

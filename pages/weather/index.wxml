@@ -1,0 +1,19 @@
+<image src="../../images/bg.jpg" id="background" mode="scaleToFill"></image>
+<view id="container">
+    <view id="display">
+        <view id="now">{{tmp}}℃</view>
+        <view id="temp"> {{cond_txt}}  {{tmp_min}}℃ / {{tmp_max}}℃</view>
+        <view id="hum">	相对湿度 {{hum}}</view>
+        <view id="city">
+          {{city}}
+        </view>
+    </view>
+    <view id="form">
+      <view wx:for="{{daily_forecast}}" wx:for-index="i" wx:for-item="item">
+          <view class="list">
+            <view class="weui-loading_transparent">{{item.date}}    {{item.text_day}}{{item.low}}℃/{{item.high}}℃</view>
+            <!-- <view class="td">{{item.text_day}}{{item.low}}℃/{{item.high}}℃</view> -->
+          </view>
+      </view>
+    </view>
+</view>

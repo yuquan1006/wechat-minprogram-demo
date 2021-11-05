@@ -1,0 +1,31 @@
+
+<view>
+    <view>
+  <swiper
+    indicator-dots="{{true}}"  
+    autoplay="{{true}}"
+    style="width: 750rpx;">
+    <swiper-item>
+      <image src="https://picsum.photos/200"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://picsum.photos/250"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://picsum.photos/300"></image>
+    </swiper-item>
+  </swiper>
+</view>
+  <text class="title">hello {{name}}</text>
+  <button class="weui-btn weui-btn_primary" bind:tap="buttonHandler">
+    主操作
+  </button>
+  <button class="weui-btn weui-btn_primary weui-btn_loading">
+    <i class="weui-loading"></i>正在加载
+  </button>
+  <button class="weui-btn weui-btn_primary weui-btn_disabled">
+    禁止点击
+  </button>
+  <!-- <image src="https://picsum.photos/200" 
+  style="height: 375rpx;width: 375rpx;"></image> -->
+</view>
